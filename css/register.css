@@ -1,0 +1,86 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--dark3);
+  height: 100vh;
+}
+
+.logo {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.Register-form {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 1rem;
+  background-color: var(--light1);
+  box-shadow: 0 5px 15px var(--dark3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register-subtitle {
+  font-weight: 100;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--dark2);
+}
+.register-subtitle button {
+  background-color: var(--light1);
+  margin: 0 0.3rem;
+  cursor: pointer;
+  color: var(--blue);
+}
+.Register-form div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  width: 16rem;
+  height: 2.5rem;
+  margin: 0.5rem 0;
+}
+.Register-form div input {
+  border-radius: 0.5rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark3);
+  padding: 0 1rem;
+}
+.Register-form div i {
+  position: absolute;
+  left: 0;
+}
+.register-btn {
+  width: 19rem;
+  background-color: var(--blue);
+  color: var(--light1);
+  border-radius: 10rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+.register-btn:hover{
+    opacity: .8;
+}
+.register-footer{
+    width: 20rem;
+    font-weight: 100;
+    line-height: 1.3rem;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    color: var(--dark2);
+}
+.register-footer span{
+    color: var(--blue);
+    cursor: pointer;
+}

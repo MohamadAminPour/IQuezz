@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url(./register.css);
+
+@font-face {
+  font-family: "graphic";
+  src: url(../fonts/Graphik\ Arabic\ Medium.otf);
+}
+
+:root {
+  --green: #00ffc3;
+  --red: #ff006f;
+  --blue: #00b3ff;
+  --yellow: #ffc800;
+  --purple: #ff00ea;
+
+  --dark1:#000000;
+  --dark2:#00000060;
+  --dark3:#00000010;
+
+  --light1:#fff;
+  --light2:#ffffff60;
+  --light3:#ffffff10;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "graphic";
+}
+input,button{
+  outline: none;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: var(--dark1);
+}
+.logo span {
+  color: #00b3ff;
+}
+
